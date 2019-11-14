@@ -1,0 +1,182 @@
+- name: "Virtual Storage"
+  href: virtual-storage.md
+  items: 
+  - name: "Virtual Hard Disk"
+    href: portal.md
+    items: 
+    - name: "About VHD"
+      href: about-vhd.md
+    - name: "VHD Reference"
+      href: vhd-reference.md
+      items: 
+      - name: "VHD Enumerations"
+        href: vhd-enumerations.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_apply_snapshot_vhdset_flag
+        - name: "APPLY_SNAPSHOT_VHDSET_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_apply_snapshot_vhdset_version
+        - name: "ATTACH_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_attach_virtual_disk_flag
+        - name: "ATTACH_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_attach_virtual_disk_version
+        - name: "COMPACT_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_compact_virtual_disk_flag
+        - name: "COMPACT_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_compact_virtual_disk_version
+        - name: "CREATE_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_flag
+        - name: "CREATE_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_create_virtual_disk_version
+        - name: "DELETE_SNAPSHOT_VHDSET_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_delete_snapshot_vhdset_flag
+        - name: "DELETE_SNAPSHOT_VHDSET_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_delete_snapshot_vhdset_version
+        - name: "DEPENDENT_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_dependent_disk_flag
+        - name: "DETACH_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_detach_virtual_disk_flag
+        - name: "EXPAND_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_expand_virtual_disk_flag
+        - name: "EXPAND_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_expand_virtual_disk_version
+        - name: "GET_STORAGE_DEPENDENCY_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_storage_dependency_flag
+        - name: "GET_VIRTUAL_DISK_INFO_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_get_virtual_disk_info_version
+        - name: "MERGE_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_merge_virtual_disk_flag
+        - name: "MERGE_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_merge_virtual_disk_version
+        - name: "MIRROR_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_flag
+        - name: "MIRROR_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_version
+        - name: "MODIFY_VHDSET_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_modify_vhdset_flag
+        - name: "MODIFY_VHDSET_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_modify_vhdset_version
+        - name: "OPEN_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag
+        - name: "OPEN_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_version
+        - name: "RAW_SCSI_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_raw_scsi_virtual_disk_flag
+        - name: "RAW_SCSI_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_raw_scsi_virtual_disk_version
+        - name: "RESIZE_VIRTUAL_DISK_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_flag
+        - name: "RESIZE_VIRTUAL_DISK_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-_resize_virtual_disk_version
+        - name: "SET_VIRTUAL_DISK_INFO_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_set_virtual_disk_info_version
+        - name: "STORAGE_DEPENDENCY_INFO_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_storage_dependency_info_version
+        - name: "TAKE_SNAPSHOT_VHDSET_FLAG"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_take_snapshot_vhdset_flag
+        - name: "TAKE_SNAPSHOT_VHDSET_VERSION"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_take_snapshot_vhdset_version
+        - name: "VIRTUAL_DISK_ACCESS_MASK"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask
+      - name: "VHD Functions"
+        href: vhd-functions.md
+        items: 
+        - name: "ApplySnapshotVhdSet"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-applysnapshotvhdset
+        - name: "AddVirtualDiskParent"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-addvirtualdiskparent
+        - name: "AttachVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-attachvirtualdisk
+        - name: "BreakMirrorVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-breakmirrorvirtualdisk
+        - name: "CompactVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-compactvirtualdisk
+        - name: "CreateVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk
+        - name: "DeleteSnapshotVhdSet"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-deletesnapshotvhdset
+        - name: "DeleteVirtualDiskMetadata"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-deletevirtualdiskmetadata
+        - name: "DetachVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-detachvirtualdisk
+        - name: "EnumerateVirtualDiskMetadata"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-enumeratevirtualdiskmetadata
+        - name: "ExpandVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-expandvirtualdisk
+        - name: "GetStorageDependencyInformation"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getstoragedependencyinformation
+        - name: "GetVirtualDiskInformation"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskinformation
+        - name: "GetVirtualDiskMetadata"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-getvirtualdiskmetadata
+        - name: "GetVirtualDiskOperationProgress"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress
+        - name: "GetVirtualDiskPhysicalPath"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskphysicalpath
+        - name: "MergeVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mergevirtualdisk
+        - name: "MirrorVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk
+        - name: "ModifyVhdSet"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-modifyvhdset
+        - name: "OpenVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk
+        - name: "QueryChangesVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-querychangesvirtualdisk
+        - name: "RawSCSIVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-rawscsivirtualdisk
+        - name: "ResizeVirtualDisk"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk
+        - name: "SetVirtualDiskInformation"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-setvirtualdiskinformation
+        - name: "SetVirtualDiskMetadata"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-setvirtualdiskmetadata
+        - name: "TakeSnapshotVhdSet"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-takesnapshotvhdset
+      - name: "VHD Structures"
+        href: vhd-structures.md
+        items: 
+        - name: "APPLY_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_apply_snapshot_vhdset_parameters
+        - name: "ATTACH_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_attach_virtual_disk_parameters
+        - name: "COMPACT_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_compact_virtual_disk_parameters
+        - name: "CREATE_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_create_virtual_disk_parameters
+        - name: "DELETE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_delete_snapshot_vhdset_parameters
+        - name: "EXPAND_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_expand_virtual_disk_parameters
+        - name: "GET_VIRTUAL_DISK_INFO"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info
+        - name: "MERGE_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_merge_virtual_disk_parameters
+        - name: "MIRROR_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters
+        - name: "MODIFY_VHDSET_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_modify_vhdset_parameters
+        - name: "OPEN_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_open_virtual_disk_parameters
+        - name: "RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_raw_scsi_virtual_disk_parameters
+        - name: "RAW_SCSI_VIRTUAL_DISK_RESPONSE"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_raw_scsi_virtual_disk_response
+        - name: "RESIZE_VIRTUAL_DISK_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-_resize_virtual_disk_parameters
+        - name: "QUERY_CHANGES_VIRTUAL_DISK_RANGE"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_query_changes_virtual_disk_range
+        - name: "SET_VIRTUAL_DISK_INFO"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_set_virtual_disk_info
+        - name: "STORAGE_DEPENDENCY_INFO"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_1"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1
+        - name: "STORAGE_DEPENDENCY_INFO_TYPE_2"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2
+        - name: "TAKE_SNAPSHOT_VHDSET_PARAMETERS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_take_snapshot_vhdset_parameters
+        - name: "VIRTUAL_DISK_PROGRESS"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_disk_progress
+        - name: "VIRTUAL_STORAGE_TYPE"
+          href: https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type
